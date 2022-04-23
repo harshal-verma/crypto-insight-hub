@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Pagination from "@material-ui/lab/Pagination";
 import {
@@ -27,7 +27,7 @@ export default function CoinsTable() {
     const [search, setSearch] = useState("");
     const [page, setPage] = useState(1);
 
-    const { currency, symbol, coins, loading, fetchCoins } = CryptoState();
+    const { symbol, coins, loading } = CryptoState();
 
     const useStyles = makeStyles({
         row: {
