@@ -52,7 +52,7 @@ function Header() {
                             variant="h6"
                             className={classes.title}
                         >
-                            Crypto Pulse
+                            CryptoInsight Hub
                         </Typography>
                         <Select
                             variant="outlined"

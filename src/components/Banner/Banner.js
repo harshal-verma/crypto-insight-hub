@@ -41,7 +41,7 @@ function Banner() {
                             fontFamily: "Montserrat",
                         }}
                     >
-                        Crypto Pulse
+                        CryptoInsight Hub
                     </Typography>
                     <Typography
                         variant="subtitle2"
